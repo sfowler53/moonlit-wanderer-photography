@@ -17,7 +17,7 @@ function App() {
       <aside className="sidebar">
         <div className="brand">
           <div className="moon">☾</div>
-          <h1>Moonlit Moments</h1>
+          <h1>Moonlit Wanderer Photography</h1>
           <p>Photography</p>
         </div>
 
@@ -47,7 +47,7 @@ function App() {
 
         <section className="hero">
           <h2>Moonlit Moments</h2>
-          <p>Capturing life, one frame at a time.</p>
+          <p>Chasing light. Capturing memories.</p>
           <div className="hero-buttons">
             <button>View Gallery</button>
             <button className="outline">Upload</button>
