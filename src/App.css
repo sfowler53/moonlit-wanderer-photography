@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: white;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background: #111827;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #222;
+}
+
+.brand h1 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.brand p {
+  color: #b8b8b8;
+}
+
+.moon {
+  font-size: 40px;
+  color: #c084fc;
+}
+
+nav {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav a.active {
+  color: #c084fc;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar {
+  font-size: 40px;
+}
+
+.profile span {
+  display: block;
+  color: #999;
+}
+
+.main {
+  flex: 1;
+  padding: 40px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.topbar input {
+  width: 400px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #1f2937;
+  color: white;
+}
+
+.topbar button {
+  background: #c084fc;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero {
+  background: linear-gradient(#1e1b4b, #111827);
+  padding: 60px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.hero h2 {
+  font-size: 55px;
+}
+
+.hero p {
+  margin: 15px 0 25px;
+  color: #ddd;
+  font-size: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-buttons button {
+  padding: 14px 25px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #c084fc;
+  color: white;
+}
+
+.hero-buttons .outline {
+  background: transparent;
+  border: 2px solid white;
+}
+
+.section-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
+  gap: 20px;
+}
+
+.album-card,
+.new-album {
+  background: #1f2937;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.album-image {
+  height: 140px;
+  background: linear-gradient(135deg,#3b0764,#4c1d95,#312e81);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-image span{
+  font-size:50px;
+}
+
+.album-card h4,
+.album-card p {
+  padding: 10px 15px;
+}
+
+.new-album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 220px;
+  cursor: pointer;
+}
+
+.new-album span {
+  font-size: 60px;
+}
